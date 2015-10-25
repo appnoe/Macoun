@@ -1,2 +1,2 @@
-#ARM-Assembler für iOS-Entwickler
-Wozu ARM-Assembler verwenden? Weil es geht. Und weil man für fortgeschrittene Debugging- und Sicherheitstechniken mit Objective-C und C nicht weiterkommt. Der Vortrag zeigt ARM-Assembler und dessen Verwendung in der iOS-Programmierung.
+#Sicher ganz einfach
+Schlaue Ratschläge aus dem Elfenbeinturm zum Thema "sichere Apps" gibt es wie Sand am Meer. Dieser Vortrag zeigt anhand eines erfolgreich implementierten Projektes, wie Sicherheit von Anfang an erfolgreich in Design und Implementierung von App und Backend berücksichtigt werden kann (und sollte).
