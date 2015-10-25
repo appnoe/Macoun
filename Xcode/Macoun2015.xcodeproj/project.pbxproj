@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		402306F71BDB6EB000E9A875 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 402306F61BDB6EB000E9A875 /* main.m */; };
+		402306FF1BDB6EC700E9A875 /* KMRSecUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 402306FE1BDB6EC700E9A875 /* KMRSecUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		402306F11BDB6EB000E9A875 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		402306F31BDB6EB000E9A875 /* Macoun2015 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Macoun2015; sourceTree = BUILT_PRODUCTS_DIR; };
+		402306F61BDB6EB000E9A875 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		402306FD1BDB6EC700E9A875 /* KMRSecUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMRSecUtils.h; sourceTree = "<group>"; };
+		402306FE1BDB6EC700E9A875 /* KMRSecUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMRSecUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		402306F01BDB6EB000E9A875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		402306EA1BDB6EB000E9A875 = {
+			isa = PBXGroup;
+			children = (
+				402306F51BDB6EB000E9A875 /* Macoun2015 */,
+				402306F41BDB6EB000E9A875 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		402306F41BDB6EB000E9A875 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				402306F31BDB6EB000E9A875 /* Macoun2015 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		402306F51BDB6EB000E9A875 /* Macoun2015 */ = {
+			isa = PBXGroup;
+			children = (
+				402307001BDB6ECD00E9A875 /* KMRSecUtils */,
+				402306F61BDB6EB000E9A875 /* main.m */,
+			);
+			path = Macoun2015;
+			sourceTree = "<group>";
+		};
+		402307001BDB6ECD00E9A875 /* KMRSecUtils */ = {
+			isa = PBXGroup;
+			children = (
+				402306FD1BDB6EC700E9A875 /* KMRSecUtils.h */,
+				402306FE1BDB6EC700E9A875 /* KMRSecUtils.m */,
+			);
+			name = KMRSecUtils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		402306F21BDB6EB000E9A875 /* Macoun2015 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 402306FA1BDB6EB000E9A875 /* Build configuration list for PBXNativeTarget "Macoun2015" */;
+			buildPhases = (
+				402306EF1BDB6EB000E9A875 /* Sources */,
+				402306F01BDB6EB000E9A875 /* Frameworks */,
+				402306F11BDB6EB000E9A875 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Macoun2015;
+			productName = Macoun2015;
+			productReference = 402306F31BDB6EB000E9A875 /* Macoun2015 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		402306EB1BDB6EB000E9A875 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Appnö UG (haftungsbeschränkt)";
+				TargetAttributes = {
+					402306F21BDB6EB000E9A875 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 402306EE1BDB6EB000E9A875 /* Build configuration list for PBXProject "Macoun2015" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 402306EA1BDB6EB000E9A875;
+			productRefGroup = 402306F41BDB6EB000E9A875 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				402306F21BDB6EB000E9A875 /* Macoun2015 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		402306EF1BDB6EB000E9A875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402306FF1BDB6EC700E9A875 /* KMRSecUtils.m in Sources */,
+				402306F71BDB6EB000E9A875 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		402306F81BDB6EB000E9A875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		402306F91BDB6EB000E9A875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		402306FB1BDB6EB000E9A875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		402306FC1BDB6EB000E9A875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		402306EE1BDB6EB000E9A875 /* Build configuration list for PBXProject "Macoun2015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402306F81BDB6EB000E9A875 /* Debug */,
+				402306F91BDB6EB000E9A875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		402306FA1BDB6EB000E9A875 /* Build configuration list for PBXNativeTarget "Macoun2015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402306FB1BDB6EB000E9A875 /* Debug */,
+				402306FC1BDB6EB000E9A875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 402306EB1BDB6EB000E9A875 /* Project object */;
+}
