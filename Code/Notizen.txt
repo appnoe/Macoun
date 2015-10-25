@@ -1,0 +1,43 @@
+clang tutorial.m -fobjc-arc -arch armv7 -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -mthumb -Os -larclite_iphoneos -L /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc
+
+----
+
+lldb:
+
+fr v
+register read
+memory read --size 4 --format x --count 4 0xffc039c9
+p theKey
+p *theKey
+p &theKey
+p/x theKey
+po theKey
+
+----
+
+(lldb) memory read -count 10 0x0000375d
+0x0000375d: 41 41 41 41 41 41 41 41 41 41                    AAAAAAAAAA
+(lldb) n
+(lldb) n
+2013-09-21 21:50:29.286 AssemblerFoo[45941:a0b] &theKey: 0xbfffca60
+(lldb) n
+2013-09-21 21:50:30.342 AssemblerFoo[45941:a0b] theKey: BBBBBBBBBB
+(lldb) n
+2013-09-21 21:50:31.869 AssemblerFoo[45941:a0b] foo: AAAAAAAAAA
+(lldb) n
+(lldb) memory read -count 10 0x0000375d
+0x0000375d: 41 41 41 41 41 41 41 41 41 41                    AAAAAAAAAA
+(lldb) fr v
+(ViewController *const) self = 0x0898df30
+(SEL) _cmd = "viewDidLoad"
+(char *) foo = 0x00000000
+(NSString *) theKey = 0x00004664 @"BBBBBBBBBB"
+(lldb) 
+
+----
+
+# otool -tdv fefe.o 
+
+----
+
+RVA = Relative Virtual Address

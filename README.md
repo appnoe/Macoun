@@ -1,2 +1,2 @@
-#Sicher nach iOS
-Der Vortrag zeigt die grundsätzlichen Risiken für Sicherheit und Datenschutz bei iPhone und iPad anhand einer Schadsoftware auf. Als Lösung zeigt er Möglichkeiten auf, Risiken für eigene Apps zu ermitteln und gibt Hilfestellung dafür, die umfangreichen Sicherheitsmechanismen von iOS kennenzulernen und effizient nutzen zu können.
+#ARM-Assembler für iOS-Entwickler
+Wozu ARM-Assembler verwenden? Weil es geht. Und weil man für fortgeschrittene Debugging- und Sicherheitstechniken mit Objective-C und C nicht weiterkommt. Der Vortrag zeigt ARM-Assembler und dessen Verwendung in der iOS-Programmierung.
