@@ -13,4 +13,4 @@ Die ASCII-Tabelle (zum Vergleich von Clear- und Plaintext) öffnet man im Termin
 	man ascii
 	
 #Disclaimer
-Das ist akademischer Demo-Code. Verwendung auf eigene Verantwortung und Gefahr. Der Code steht _keine_ Implementierung dar, die im Produktionsumfeld verwendet werden darf.
+Das ist akademischer Demo-Code. Verwendung auf eigene Verantwortung und Gefahr. Der Code stellt _keine_ Implementierung dar, die im Produktionsumfeld verwendet werden darf.
